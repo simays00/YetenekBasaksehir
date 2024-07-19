@@ -17,5 +17,9 @@ namespace gitDeneme
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Yeni bir değişiklik yapıldı");
+        }
     }
 }
